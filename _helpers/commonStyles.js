@@ -21,13 +21,26 @@ const commonStyles = {
      fontWeight: '600',
         color: colors.white
     },
-
-    white: '#fff',
-    secondary: '#5C746A',
-    alternate: '#1CB281',
-    whiteLight: '#FFFFFF69',
-    whiteDark: '#FFFFFF66',
-    tabColor: '#202332'
+ h4: {
+        fontSize: 16,
+        lineHeight: 21,
+        textAlign: 'left',
+        color: colors.white
+    },
+h5: {
+        fontSize: 16,
+        lineHeight: 21,
+        textAlign: 'center',
+    paddingTop: 18,
+        color: colors.white
+    },
+h6: {
+        fontSize: 12,
+        lineHeight: 14,
+        textAlign: 'left',
+    paddingRight: 15,
+        color: colors.secondary
+    }
 }
 
 export default commonStyles

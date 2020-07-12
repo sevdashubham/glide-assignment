@@ -63,10 +63,12 @@ const styles = StyleSheet.create({
         left: 15,
         zIndex: 1,
         borderRadius: 10,
+        paddingHorizontal: 10,
         backgroundColor: colors.alternate
     },
   difficultyText: {
         padding: 5,
+      fontWeight: '600',
        color: colors.white
   },
     title: {

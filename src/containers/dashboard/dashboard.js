@@ -5,9 +5,11 @@ import colors from '../../../_helpers/colors'
 import GymContainer from "../gymContainer/gymContainer";
 import SessionContainer from "../sessionContainer/sessionContainer";
 
+const gymActive = require('../../assets/gym/gymActive.png');
 const gym = require('../../assets/gym/gym.png');
 const clients = require('../../assets/people/people-24px.png');
-const sessions = require('../../assets/access-time/access-time.png');
+const sessions = require('../../assets/Sessions/session.png');
+const sessionsActive = require('../../assets/Sessions/sessionActive.png');
 const schedule = require('../../assets/calendar-today/calendar-today.png');
 
 const initialLayout = {width: Dimensions.get('window').width};
@@ -18,21 +20,21 @@ export default function Dashboard() {
         {
             key: 'gym',
             icon: gym,
-            color: colors.grey,
+            active: gymActive,
         },
         {
             key: 'clients',
             icon: clients,
-            color: colors.primary,
+            active: gymActive,
         },
         {
             key: 'sessions',
             icon: sessions,
-            color: colors.grey,
+            active: sessionsActive,
         }, {
             key: 'schedule',
             icon: schedule,
-            color: colors.grey,
+            active: sessionsActive,
         },
     ]);
 
@@ -54,10 +56,10 @@ export default function Dashboard() {
         }
     };
 
-    const renderIcon = ({route}) => {
+    const renderIcon = ({route, focused}) => {
         return (
             <View style={styles.tab}>
-                <Image source={route.icon} size={24} style={styles.icon}/>
+                <Image source={focused? route.active : route.icon} size={24} style={styles.icon}/>
                 <Text style={styles.tabTitle}>{route.key}</Text>
             </View>
         )

@@ -22,6 +22,7 @@ export default function GymContainer() {
                 Latest clients
             </Text>
             <ClientSlider/>
+            <View style={styles.extraSpace}/>
         </ScrollView>
     );
 }
@@ -30,7 +31,6 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         padding: 20,
-        paddingBottom: 50,
     },
     welcomeText: {
        paddingTop: 40
@@ -38,5 +38,8 @@ const styles = StyleSheet.create({
     logo: {
         height: 128,
         width: 128,
+    },
+    extraSpace: {
+        paddingBottom: 50
     }
 });
