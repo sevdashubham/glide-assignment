@@ -15,7 +15,7 @@ export default function GymContainer() {
             </Text>
             <Calendar/>
             <Text style={[commonStyles.h1, styles.welcomeText]}>
-                Your training sessions
+                Your training{"\n"}sessions
             </Text>
             <SessionSlider/>
             <Text style={[commonStyles.h3, styles.welcomeText]}>

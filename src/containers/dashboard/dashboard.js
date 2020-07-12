@@ -5,8 +5,8 @@ import colors from '../../../_helpers/colors'
 import GymContainer from "../gymContainer/gymContainer";
 import SessionContainer from "../sessionContainer/sessionContainer";
 
-const gymActive = require('../../assets/gym/gymActive.png');
-const gym = require('../../assets/gym/gym.png');
+const gymActive = require('../../assets/gym/gym.png');
+const gym = require('../../assets/gym/gymInactive.png');
 const clients = require('../../assets/people/people-24px.png');
 const sessions = require('../../assets/Sessions/session.png');
 const sessionsActive = require('../../assets/Sessions/sessionActive.png');
@@ -15,7 +15,7 @@ const schedule = require('../../assets/calendar-today/calendar-today.png');
 const initialLayout = {width: Dimensions.get('window').width};
 
 export default function Dashboard() {
-    const [index, setIndex] = React.useState(0);
+    const [index, setIndex] = React.useState(3);
     const [routes] = React.useState([
         {
             key: 'gym',

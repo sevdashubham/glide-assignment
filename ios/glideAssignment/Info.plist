@@ -51,6 +51,16 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Helvetica Neue Bold.ttf</string>
+		<string>Helvetica Neu Bold.ttf</string>
+		<string>HelveticaNeueHv.ttf</string>
+		<string>HelveticaNeueBd.ttf</string>
+		<string>HelveticaNeueMedium.ttf</string>
+		<string>HelveticaNeue.ttf</string>
+		<string>HelveticaNeuBold.ttf</string>
+	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 </dict>

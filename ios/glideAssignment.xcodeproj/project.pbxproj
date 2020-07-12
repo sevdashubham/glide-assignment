@@ -19,6 +19,13 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* glideAssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* glideAssignmentTests.m */; };
 		4A4367988469ACEEC9C5A0BC /* libPods-glideAssignment-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFEAAC0F4DC0689F2028D44 /* libPods-glideAssignment-tvOS.a */; };
+		6B010A1D24BB549A0067FE3F /* HelveticaNeue.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B010A1C24BB549A0067FE3F /* HelveticaNeue.ttf */; };
+		6B010A1F24BB54A50067FE3F /* HelveticaNeuBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B010A1E24BB54A50067FE3F /* HelveticaNeuBold.ttf */; };
+		6B010A2224BB56BC0067FE3F /* HelveticaNeueMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B010A2124BB56BC0067FE3F /* HelveticaNeueMedium.ttf */; };
+		6B010A2424BB57C30067FE3F /* HelveticaNeueBd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B010A2324BB57C30067FE3F /* HelveticaNeueBd.ttf */; };
+		6B010A2624BB585B0067FE3F /* HelveticaNeueHv.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B010A2524BB585B0067FE3F /* HelveticaNeueHv.ttf */; };
+		6B010A2824BB5A600067FE3F /* Helvetica Neu Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B010A2724BB5A600067FE3F /* Helvetica Neu Bold.ttf */; };
+		6B010A2A24BB5AEE0067FE3F /* Helvetica Neue Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B010A2924BB5AEE0067FE3F /* Helvetica Neue Bold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +64,13 @@
 		463CA6D1D09BA100EE3FADBF /* Pods-glideAssignment-glideAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-glideAssignment-glideAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-glideAssignment-glideAssignmentTests/Pods-glideAssignment-glideAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4F801B655EEAE9439A520F46 /* Pods-glideAssignment-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-glideAssignment-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-glideAssignment-tvOSTests/Pods-glideAssignment-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		62288DC2CBA8613D21453E3D /* Pods-glideAssignment-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-glideAssignment-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-glideAssignment-tvOS/Pods-glideAssignment-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6B010A1C24BB549A0067FE3F /* HelveticaNeue.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeue.ttf; sourceTree = "<group>"; };
+		6B010A1E24BB54A50067FE3F /* HelveticaNeuBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeuBold.ttf; sourceTree = "<group>"; };
+		6B010A2124BB56BC0067FE3F /* HelveticaNeueMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeueMedium.ttf; sourceTree = "<group>"; };
+		6B010A2324BB57C30067FE3F /* HelveticaNeueBd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeueBd.ttf; sourceTree = "<group>"; };
+		6B010A2524BB585B0067FE3F /* HelveticaNeueHv.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeueHv.ttf; sourceTree = "<group>"; };
+		6B010A2724BB5A600067FE3F /* Helvetica Neu Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helvetica Neu Bold.ttf"; sourceTree = "<group>"; };
+		6B010A2924BB5AEE0067FE3F /* Helvetica Neue Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helvetica Neue Bold.ttf"; sourceTree = "<group>"; };
 		76E279D1639A0861B7104E62 /* Pods-glideAssignment-glideAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-glideAssignment-glideAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-glideAssignment-glideAssignmentTests/Pods-glideAssignment-glideAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = glideAssignment/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		920627981522C43976EB1005 /* Pods-glideAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-glideAssignment.debug.xcconfig"; path = "Target Support Files/Pods-glideAssignment/Pods-glideAssignment.debug.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +163,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6B010A1B24BB54730067FE3F /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6B010A2924BB5AEE0067FE3F /* Helvetica Neue Bold.ttf */,
+				6B010A2124BB56BC0067FE3F /* HelveticaNeueMedium.ttf */,
+				6B010A2524BB585B0067FE3F /* HelveticaNeueHv.ttf */,
+				6B010A1E24BB54A50067FE3F /* HelveticaNeuBold.ttf */,
+				6B010A2724BB5A600067FE3F /* Helvetica Neu Bold.ttf */,
+				6B010A1C24BB549A0067FE3F /* HelveticaNeue.ttf */,
+				6B010A2324BB57C30067FE3F /* HelveticaNeueBd.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +187,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				6B010A1B24BB54730067FE3F /* fonts */,
 				13B07FAE1A68108700A75B9A /* glideAssignment */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* glideAssignmentTests */,
@@ -194,7 +223,6 @@
 				ECDB827401FCBDD5A9CBC668 /* Pods-glideAssignment-tvOSTests.debug.xcconfig */,
 				4F801B655EEAE9439A520F46 /* Pods-glideAssignment-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -340,7 +368,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B010A2824BB5A600067FE3F /* Helvetica Neu Bold.ttf in Resources */,
+				6B010A2224BB56BC0067FE3F /* HelveticaNeueMedium.ttf in Resources */,
+				6B010A1F24BB54A50067FE3F /* HelveticaNeuBold.ttf in Resources */,
+				6B010A1D24BB549A0067FE3F /* HelveticaNeue.ttf in Resources */,
+				6B010A2A24BB5AEE0067FE3F /* Helvetica Neue Bold.ttf in Resources */,
+				6B010A2424BB57C30067FE3F /* HelveticaNeueBd.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				6B010A2624BB585B0067FE3F /* HelveticaNeueHv.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
